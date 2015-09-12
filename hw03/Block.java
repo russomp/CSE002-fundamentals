@@ -47,7 +47,7 @@ public class Block{
         //compute volume of block
         double volume = length * width * height;
         
-        //compute block surface area
+        //compute surface area of block
         double surfaceArea = 2 * (length * width) + 2 * (length * height) + 2 * (height * width);
         
         //print block volume and surface area
