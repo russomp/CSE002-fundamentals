@@ -24,7 +24,7 @@ import java.util.Scanner;
 //define Timer class
 public class Block{
     
-    //define main method
+    //define main method of Timer class
     public static void main(String[] args){
         
         //declare scanner
