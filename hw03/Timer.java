@@ -1,5 +1,5 @@
 //Michael Russo
-//Homework 02
+//Homework 03
 //
 //Timer Java Program:
 //  takes user inputs: 
@@ -33,7 +33,7 @@ public class Timer{
         System.out.print("Enter dinner time (HHMM): ");
         int dinnerTime = myScanner.nextInt();
         
-        //ensure valid entries are valid
+        //check for invalid entries
         if (dinnerTime < currentTime) {
             System.out.println("Sorry, but you either missed dinner already or your dinner is scheduled for another day.");
             return;
