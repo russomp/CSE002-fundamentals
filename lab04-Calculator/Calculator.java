@@ -6,7 +6,7 @@
 //    (1) integer value, a
 //    (2) integer value, b
 //    (3) operator [+, -, *, /]
-//  computes value of a+b, a-b, a*b, OR a/b based on operator
+//  computes value of a+b, a-b, a*b, OR a/b based operator input
 //
 //Instructions:
 //  Compile Program:
@@ -27,32 +27,36 @@ public class Calculator{
     public static void main(String[] args){
         
         //declare scanner
-        Scanner myScanner = new Scanner(System.in);
+        Scanner myScanner= new Scanner(System.in);
         
         //prompt user for inputs and store input values
         System.out.print("Enter integer, a: ");
-        int myIntA = myScanner.nextInt();
+        int myIntA= myScanner.nextInt();
+        
         System.out.print("Enter integer, b: ");
-        int myIntB = myScanner.nextInt();
+        int myIntB= myScanner.nextInt();
+        
         System.out.print("Enter operator [+, -, *, OR /]: ");
         String myOperator = myScanner.next();
-        int total = 0;
+        
+        //declare variable total to store value of operation between a and b
+        int total= 0;
         
         //create a switch statement to operate on a and b based on operator given
         switch(myOperator){
-            case "+": total = myIntA + myIntB;
-            System.out.println("a + b = " + total);
+        case "+": total = myIntA + myIntB;
+            System.out.println("a + b= " + total);
             break;
-            case "-": total = myIntA - myIntB;
-            System.out.println("a - b = " + total);
+        case "-": total = myIntA - myIntB;
+            System.out.println("a - b= " + total);
             break;
-            case "*": total = myIntA * myIntB;
-            System.out.println("a * b = " + total);
+        case "*": total = myIntA * myIntB;
+            System.out.println("a * b= " + total);
             break;
-            case "/": total = myIntB / myIntA;
+        case "/": total = myIntA / myIntB;
             System.out.println("a / b = " + total);
             break;
-            default: 
+        default: 
             System.out.println("Invalid entry.");
         }
     }
