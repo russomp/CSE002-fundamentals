@@ -45,13 +45,13 @@ public class Calculator{
         //create a switch statement to operate on a and b based on operator given
         switch(myOperator){
         case "+": total = myIntA + myIntB;
-            System.out.println("a + b= " + total);
+            System.out.println("a + b = " + total);
             break;
         case "-": total = myIntA - myIntB;
-            System.out.println("a - b= " + total);
+            System.out.println("a - b = " + total);
             break;
         case "*": total = myIntA * myIntB;
-            System.out.println("a * b= " + total);
+            System.out.println("a * b = " + total);
             break;
         case "/": total = myIntA / myIntB;
             System.out.println("a / b = " + total);
