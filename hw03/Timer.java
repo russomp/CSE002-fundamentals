@@ -38,7 +38,7 @@ public class Timer{
             System.out.println("Sorry, but you either missed dinner already or your dinner is scheduled for another day.");
             return;
         }
-        else if(currentTime < 0 || dinnerTime < 0 || (Integer.toString(currentTime)).length() < 4 || (Integer.toString(dinnerTime)).length() < 4){
+        else if(currentTime < 0 || dinnerTime < 0 || currentTime % 100 > 59 || dinnerTime % 100 > 59 || currentTime/100 > 23 || dinnerTime/100 > 23){
             System.out.println("Invalid Entry.  Please enter valid time in military format (HHMM).");
             return;
         }
