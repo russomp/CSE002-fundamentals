@@ -22,7 +22,7 @@ Instructions:
 //import scanner class to read user inputs
 import java.util.Scanner;
 
-//define Timer class
+//define Time Sheets class
 public class TimeSheets{
     
     //define main method of Timer class
@@ -67,7 +67,7 @@ public class TimeSheets{
             totalPayroll += totalHours * payRate; 
         }
 
-        //display total payrool and exit message
+        //display total payroll and exit message
         System.out.println("...");
         System.out.printf("Total Payroll: $%.2f\n", totalPayroll/100);
         System.out.println("*** Exiting Program ***");
