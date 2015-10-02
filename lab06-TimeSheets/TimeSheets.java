@@ -55,6 +55,10 @@ public class TimeSheets{
             System.out.print("Enter the pay rate for Employee #" + i + " (cents/hour): ");
             payRate = myScanner.nextDouble();
             System.out.println("-- Enter daily hours for Employee #" + i + " --");
+
+            //reset daily hours for each employee
+            dailyHours = 0;
+            totalHours = 0;
             
             //compute employee hours and payroll 
             for (int j = 0; j < 5; j++){
