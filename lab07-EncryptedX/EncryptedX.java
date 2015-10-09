@@ -11,7 +11,7 @@ Instructions:
     javac EncryptedX.java
   Run Program:
     java EncryptedX
-  Input size of pryamid
+  Input display size of print square
 */
 
 //import scanner class to read user inputs
