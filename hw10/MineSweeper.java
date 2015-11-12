@@ -8,9 +8,9 @@ Mine Sweeper Java Program:
 
 Instructions:
   Compile Program:
-    javac ComputeArea.java
+    javac MineSweeper.java
   Run Program:
-    java ComputeArea
+    java MineSweeper
   Input board size
   Input number of mines
 */
@@ -83,7 +83,7 @@ public class MineSweeper
 				}
 				catch (IndexOutOfBoundsException e)
 				{
-					// do nothing if if index is out of bounds
+					// do nothing if index is out of bounds
 				}
 			}
 		}
@@ -122,6 +122,7 @@ public class MineSweeper
 		// fill in board with corresponding values based on user inputs
 		setUpBoard(board, boardSize);
 		layMine(board, numMines);
+		// print final board
 		printBoard(board);
 	}
 }
