@@ -3,8 +3,8 @@ Michael Russo
 CSE002 - Homework 10
 
 Mine Sweeper Java Program:
-  set-up a mine sweeper board based on user inputs
-  for board size and number of mines to be placed
+  set-up a mine sweeper board based on user inputs for 
+  board size and number of mines to be placed
 
 Instructions:
   Compile Program:
