@@ -2,12 +2,12 @@
 Michael Russo
 CSE002 - Lab 10
 
-Compute Area Java Program:
+Average (array) Java Program:
   prompt user to enter number of values to be stored
-  store random numbers btw 0-100 in the array
+  store random integers btw 0-100 in the array
   print all the values
   compute and print the sum of the values
-  compute and print the avaerage of the values
+  compute and print the average of the values
   print all values greater than the average
 
 Instructions:
